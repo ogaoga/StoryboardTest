@@ -25,6 +25,7 @@
 		EE92A97515083821009C6940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94B15083821009C6940 /* Foundation.framework */; };
 		EE92A97D15083822009C6940 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE92A97B15083822009C6940 /* InfoPlist.strings */; };
 		EE92A98015083822009C6940 /* StoryboardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92A97F15083822009C6940 /* StoryboardTestTests.m */; };
+		EE92A98F15083D67009C6940 /* DialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92A98E15083D67009C6940 /* DialogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		EE92A97C15083822009C6940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE92A97E15083822009C6940 /* StoryboardTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryboardTestTests.h; sourceTree = "<group>"; };
 		EE92A97F15083822009C6940 /* StoryboardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTestTests.m; sourceTree = "<group>"; };
+		EE92A98D15083D67009C6940 /* DialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogViewController.h; sourceTree = "<group>"; };
+		EE92A98E15083D67009C6940 /* DialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				EE92A96815083821009C6940 /* second.png */,
 				EE92A96A15083821009C6940 /* second@2x.png */,
 				EE92A95015083821009C6940 /* Supporting Files */,
+				EE92A98D15083D67009C6940 /* DialogViewController.h */,
+				EE92A98E15083D67009C6940 /* DialogViewController.m */,
 			);
 			path = StoryboardTest;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				EE92A95A15083821009C6940 /* AppDelegate.m in Sources */,
 				EE92A96015083821009C6940 /* FirstViewController.m in Sources */,
 				EE92A96715083821009C6940 /* SecondViewController.m in Sources */,
+				EE92A98F15083D67009C6940 /* DialogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +457,7 @@
 				EE92A98515083822009C6940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE92A98615083822009C6940 /* Build configuration list for PBXNativeTarget "StoryboardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +466,7 @@
 				EE92A98815083822009C6940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
