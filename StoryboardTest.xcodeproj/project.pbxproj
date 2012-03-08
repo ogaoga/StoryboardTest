@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE508464150840E900D45A08 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE508463150840E900D45A08 /* WebViewController.m */; };
+		EE50846B1508424D00D45A08 /* SitesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50846A1508424D00D45A08 /* SitesViewController.m */; };
 		EE92A94A15083821009C6940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94915083821009C6940 /* UIKit.framework */; };
 		EE92A94C15083821009C6940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94B15083821009C6940 /* Foundation.framework */; };
 		EE92A94E15083821009C6940 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94D15083821009C6940 /* CoreGraphics.framework */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE508462150840E900D45A08 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		EE508463150840E900D45A08 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EE5084691508424D00D45A08 /* SitesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SitesViewController.h; sourceTree = "<group>"; };
+		EE50846A1508424D00D45A08 /* SitesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SitesViewController.m; sourceTree = "<group>"; };
 		EE92A94515083821009C6940 /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE92A94915083821009C6940 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE92A94B15083821009C6940 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,6 +134,10 @@
 				EE92A95815083821009C6940 /* AppDelegate.h */,
 				EE92A95915083821009C6940 /* AppDelegate.m */,
 				EE92A95B15083821009C6940 /* MainStoryboard.storyboard */,
+				EE5084691508424D00D45A08 /* SitesViewController.h */,
+				EE50846A1508424D00D45A08 /* SitesViewController.m */,
+				EE508462150840E900D45A08 /* WebViewController.h */,
+				EE508463150840E900D45A08 /* WebViewController.m */,
 				EE92A95E15083821009C6940 /* FirstViewController.h */,
 				EE92A95F15083821009C6940 /* FirstViewController.m */,
 				EE92A96115083821009C6940 /* first.png */,
@@ -288,6 +298,8 @@
 				EE92A96015083821009C6940 /* FirstViewController.m in Sources */,
 				EE92A96715083821009C6940 /* SecondViewController.m in Sources */,
 				EE92A98F15083D67009C6940 /* DialogViewController.m in Sources */,
+				EE508464150840E900D45A08 /* WebViewController.m in Sources */,
+				EE50846B1508424D00D45A08 /* SitesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
