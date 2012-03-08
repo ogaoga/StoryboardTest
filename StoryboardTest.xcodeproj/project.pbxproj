@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE92A94A15083821009C6940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94915083821009C6940 /* UIKit.framework */; };
+		EE92A94C15083821009C6940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94B15083821009C6940 /* Foundation.framework */; };
+		EE92A94E15083821009C6940 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94D15083821009C6940 /* CoreGraphics.framework */; };
+		EE92A95415083821009C6940 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE92A95215083821009C6940 /* InfoPlist.strings */; };
+		EE92A95615083821009C6940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92A95515083821009C6940 /* main.m */; };
+		EE92A95A15083821009C6940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92A95915083821009C6940 /* AppDelegate.m */; };
+		EE92A95D15083821009C6940 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE92A95B15083821009C6940 /* MainStoryboard.storyboard */; };
+		EE92A96015083821009C6940 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92A95F15083821009C6940 /* FirstViewController.m */; };
+		EE92A96215083821009C6940 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92A96115083821009C6940 /* first.png */; };
+		EE92A96415083821009C6940 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92A96315083821009C6940 /* first@2x.png */; };
+		EE92A96715083821009C6940 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92A96615083821009C6940 /* SecondViewController.m */; };
+		EE92A96915083821009C6940 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92A96815083821009C6940 /* second.png */; };
+		EE92A96B15083821009C6940 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92A96A15083821009C6940 /* second@2x.png */; };
+		EE92A97315083821009C6940 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A97215083821009C6940 /* SenTestingKit.framework */; };
+		EE92A97415083821009C6940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94915083821009C6940 /* UIKit.framework */; };
+		EE92A97515083821009C6940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92A94B15083821009C6940 /* Foundation.framework */; };
+		EE92A97D15083822009C6940 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE92A97B15083822009C6940 /* InfoPlist.strings */; };
+		EE92A98015083822009C6940 /* StoryboardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92A97F15083822009C6940 /* StoryboardTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE92A97615083821009C6940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE92A93C15083820009C6940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE92A94415083821009C6940;
+			remoteInfo = StoryboardTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE92A94515083821009C6940 /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92A94915083821009C6940 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE92A94B15083821009C6940 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE92A94D15083821009C6940 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE92A95115083821009C6940 /* StoryboardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTest-Info.plist"; sourceTree = "<group>"; };
+		EE92A95315083821009C6940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE92A95515083821009C6940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE92A95715083821009C6940 /* StoryboardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardTest-Prefix.pch"; sourceTree = "<group>"; };
+		EE92A95815083821009C6940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE92A95915083821009C6940 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE92A95C15083821009C6940 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EE92A95E15083821009C6940 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EE92A95F15083821009C6940 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EE92A96115083821009C6940 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		EE92A96315083821009C6940 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		EE92A96515083821009C6940 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EE92A96615083821009C6940 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EE92A96815083821009C6940 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		EE92A96A15083821009C6940 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		EE92A97115083821009C6940 /* StoryboardTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92A97215083821009C6940 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE92A97A15083821009C6940 /* StoryboardTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTestTests-Info.plist"; sourceTree = "<group>"; };
+		EE92A97C15083822009C6940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE92A97E15083822009C6940 /* StoryboardTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryboardTestTests.h; sourceTree = "<group>"; };
+		EE92A97F15083822009C6940 /* StoryboardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE92A94215083821009C6940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92A94A15083821009C6940 /* UIKit.framework in Frameworks */,
+				EE92A94C15083821009C6940 /* Foundation.framework in Frameworks */,
+				EE92A94E15083821009C6940 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE92A96D15083821009C6940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92A97315083821009C6940 /* SenTestingKit.framework in Frameworks */,
+				EE92A97415083821009C6940 /* UIKit.framework in Frameworks */,
+				EE92A97515083821009C6940 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE92A93A15083820009C6940 = {
+			isa = PBXGroup;
+			children = (
+				EE92A94F15083821009C6940 /* StoryboardTest */,
+				EE92A97815083821009C6940 /* StoryboardTestTests */,
+				EE92A94815083821009C6940 /* Frameworks */,
+				EE92A94615083821009C6940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE92A94615083821009C6940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A94515083821009C6940 /* StoryboardTest.app */,
+				EE92A97115083821009C6940 /* StoryboardTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE92A94815083821009C6940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A94915083821009C6940 /* UIKit.framework */,
+				EE92A94B15083821009C6940 /* Foundation.framework */,
+				EE92A94D15083821009C6940 /* CoreGraphics.framework */,
+				EE92A97215083821009C6940 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE92A94F15083821009C6940 /* StoryboardTest */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A95815083821009C6940 /* AppDelegate.h */,
+				EE92A95915083821009C6940 /* AppDelegate.m */,
+				EE92A95B15083821009C6940 /* MainStoryboard.storyboard */,
+				EE92A95E15083821009C6940 /* FirstViewController.h */,
+				EE92A95F15083821009C6940 /* FirstViewController.m */,
+				EE92A96115083821009C6940 /* first.png */,
+				EE92A96315083821009C6940 /* first@2x.png */,
+				EE92A96515083821009C6940 /* SecondViewController.h */,
+				EE92A96615083821009C6940 /* SecondViewController.m */,
+				EE92A96815083821009C6940 /* second.png */,
+				EE92A96A15083821009C6940 /* second@2x.png */,
+				EE92A95015083821009C6940 /* Supporting Files */,
+			);
+			path = StoryboardTest;
+			sourceTree = "<group>";
+		};
+		EE92A95015083821009C6940 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A95115083821009C6940 /* StoryboardTest-Info.plist */,
+				EE92A95215083821009C6940 /* InfoPlist.strings */,
+				EE92A95515083821009C6940 /* main.m */,
+				EE92A95715083821009C6940 /* StoryboardTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE92A97815083821009C6940 /* StoryboardTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A97E15083822009C6940 /* StoryboardTestTests.h */,
+				EE92A97F15083822009C6940 /* StoryboardTestTests.m */,
+				EE92A97915083821009C6940 /* Supporting Files */,
+			);
+			path = StoryboardTestTests;
+			sourceTree = "<group>";
+		};
+		EE92A97915083821009C6940 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A97A15083821009C6940 /* StoryboardTestTests-Info.plist */,
+				EE92A97B15083822009C6940 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE92A94415083821009C6940 /* StoryboardTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE92A98315083822009C6940 /* Build configuration list for PBXNativeTarget "StoryboardTest" */;
+			buildPhases = (
+				EE92A94115083821009C6940 /* Sources */,
+				EE92A94215083821009C6940 /* Frameworks */,
+				EE92A94315083821009C6940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryboardTest;
+			productName = StoryboardTest;
+			productReference = EE92A94515083821009C6940 /* StoryboardTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE92A97015083821009C6940 /* StoryboardTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE92A98615083822009C6940 /* Build configuration list for PBXNativeTarget "StoryboardTestTests" */;
+			buildPhases = (
+				EE92A96C15083821009C6940 /* Sources */,
+				EE92A96D15083821009C6940 /* Frameworks */,
+				EE92A96E15083821009C6940 /* Resources */,
+				EE92A96F15083821009C6940 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE92A97715083821009C6940 /* PBXTargetDependency */,
+			);
+			name = StoryboardTestTests;
+			productName = StoryboardTestTests;
+			productReference = EE92A97115083821009C6940 /* StoryboardTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE92A93C15083820009C6940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EE92A93F15083820009C6940 /* Build configuration list for PBXProject "StoryboardTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE92A93A15083820009C6940;
+			productRefGroup = EE92A94615083821009C6940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE92A94415083821009C6940 /* StoryboardTest */,
+				EE92A97015083821009C6940 /* StoryboardTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE92A94315083821009C6940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92A95415083821009C6940 /* InfoPlist.strings in Resources */,
+				EE92A95D15083821009C6940 /* MainStoryboard.storyboard in Resources */,
+				EE92A96215083821009C6940 /* first.png in Resources */,
+				EE92A96415083821009C6940 /* first@2x.png in Resources */,
+				EE92A96915083821009C6940 /* second.png in Resources */,
+				EE92A96B15083821009C6940 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE92A96E15083821009C6940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92A97D15083822009C6940 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE92A96F15083821009C6940 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE92A94115083821009C6940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92A95615083821009C6940 /* main.m in Sources */,
+				EE92A95A15083821009C6940 /* AppDelegate.m in Sources */,
+				EE92A96015083821009C6940 /* FirstViewController.m in Sources */,
+				EE92A96715083821009C6940 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE92A96C15083821009C6940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92A98015083822009C6940 /* StoryboardTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE92A97715083821009C6940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE92A94415083821009C6940 /* StoryboardTest */;
+			targetProxy = EE92A97615083821009C6940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE92A95215083821009C6940 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE92A95315083821009C6940 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE92A95B15083821009C6940 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE92A95C15083821009C6940 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EE92A97B15083822009C6940 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE92A97C15083822009C6940 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE92A98115083822009C6940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE92A98215083822009C6940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE92A98415083822009C6940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE92A98515083822009C6940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE92A98715083822009C6940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StoryboardTest.app/StoryboardTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardTestTests/StoryboardTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE92A98815083822009C6940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StoryboardTest.app/StoryboardTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardTestTests/StoryboardTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE92A93F15083820009C6940 /* Build configuration list for PBXProject "StoryboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92A98115083822009C6940 /* Debug */,
+				EE92A98215083822009C6940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE92A98315083822009C6940 /* Build configuration list for PBXNativeTarget "StoryboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92A98415083822009C6940 /* Debug */,
+				EE92A98515083822009C6940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE92A98615083822009C6940 /* Build configuration list for PBXNativeTarget "StoryboardTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92A98715083822009C6940 /* Debug */,
+				EE92A98815083822009C6940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE92A93C15083820009C6940 /* Project object */;
+}
